@@ -1,5 +1,5 @@
 FROM nginx
-
+RUN chmod +x /etc/nginx/
 ADD nginx.tmpl /etc/nginx/
 ADD run.sh /
 
