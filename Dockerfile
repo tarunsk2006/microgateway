@@ -2,7 +2,7 @@ FROM node:6-alpine
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
-
+COPY sample.js sample.js ./
 COPY package.json index.js ./
 COPY lib lib/
 COPY utils utils/
