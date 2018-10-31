@@ -8,6 +8,7 @@ COPY lib lib/
 COPY utils utils/
 COPY config config/
 COPY policies policies/
+COPY definition definition/
 
 ARG NPM_REGISTRY
 ENV npm_config_registry ${NPM_REGISTRY:-https://registry.npmjs.com}
